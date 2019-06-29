@@ -14,126 +14,144 @@
   <header class="navbar fixed-top navbar-expand-md navbar-light bg-light" >
     <style>.mr-md-2:hover{opacity:0.5}</style>
     <a class="navbar-brand mr-0 mr-md-2" href="index.html">
-      <img src="img/brainMain.svg" width="50" height="50"><font color="#4A2366"> lumenary.</font>
+      <img src="img/brainMain.svg" width="26.5%" ><font color="#4A2366"> lumenary.</font>
     </img>
-    </a>
-    <style>.custom-toggler.navbar-toggler {
+  </a>
+  <style>.custom-toggler.navbar-toggler {
     border-color: #4A2366;
-}
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#4A2366' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}</style>
+  }
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#4A2366' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }</style>
     <button type="button" class="navbar-toggler custom-toggler" data-toggle="collapse" data-target="#navbarCollapse" >
       <span class="navbar-toggler-icon" ></span>
     </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav ml-auto">
-            <style>.nav-link:hover{opacity:0.5}</style>
-            <a href="#" class="nav-item nav-link" style="color:#4A2366;" >About</a>
-            <a href="#" class="nav-item nav-link" style="color:#4A2366;">Research</a>
-            <a href="#" class="nav-item nav-link" style="color:#4A2366;">Prototypes</a>
-            <a href="#" class="nav-item nav-link" style="color:#4A2366;">Presentation</a>
-          </div>
-        </div>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav ml-auto">
+        <style>.nav-link:hover{opacity:0.5}</style>
+        <a href="#" class="nav-item nav-link" style="color:#4A2366;">Home</a>
+        <a href="#" class="nav-item nav-link" style="color:#4A2366;">Research</a>
+        <a href="#" class="nav-item nav-link" style="color:#4A2366;">Prototypes</a>
+        <a href="#" class="nav-item nav-link" style="color:#4A2366;">Testing</a>
+        <a href="#" class="nav-item nav-link" style="color:#4A2366;">Presentation</a>
+      </div>
+    </div>
   </header>
 
 
-
-
-
-
-
-
-
-  <div class="container-fluid">
-
-    <div class="row flex-xl-nowrap">
-
-
   <!-- Section: Features v.1 -->
-  <section class="text-center my-5">
-    <div class="container-fluid">
+  <section class="text-center my-5" style="padding-top:0.5%;">
 
     <!-- Section heading -->
     <h2 class="h1-responsive font-weight-bold my-5">Why is it so great?</h2>
     <!-- Section description -->
     <p class="lead grey-text w-responsive mx-auto mb-5" >Lorem ipsum dolor sit amet, consectetur adipiscing elit,
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      <style>
 
-      <!-- Grid row -->
-      <div class="row">
+      @media (max-width: 576px) {
+        .embed-responsive-16by9{
+          height:100vh;
+          top:0;
+          right:0;
+          left:0;
+          bottom:0;
 
-        <!-- Grid column -->
-        <div class="col-md-4">
+        }
+      }
 
-          <i class="fas fa-chart-area fa-3x red-text"></i>
-          <h5 class="font-weight-bold my-4">Analytics</h5>
+      @media (max-width: 768px) {
+        .embed-responsive-16by9{
+          height:100vh;
+          top:0;
+          right:0;
+          left:0;
+          bottom:0;
+        }
+      }
 
-          <p class="grey-text mb-md-0 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-            maiores aperiam minima assumenda deleniti hic.
-          </p>
+      @media (max-width: 992px) {
+        .embed-responsive-16by9 {
+          height:100vh;
+          top:0;
+          right:0;
+          left:0;
+          bottom:0;
+        }
+      }
 
+      @media (max-width: 1200px) {
+        .embed-responsive-16by9{
+          height:100vh;
+          top:0;
+          right:0;
+          left:0;
+          bottom:0;
+        }
+      }
+
+      </style>
+      <div class="embed-responsive embed-responsive-16by9" style="background-color:#e9ecef;" >
+        <div class="container-fluid">
+          <style>
+          .embed-responsive-item{
+
+            padding-top: 5%;
+            height:90%;
+            padding-bottom: 5%;
+
+          }
+          @media (max-width: 576px) {
+            .embed-responsive-item{
+              padding-left: 5%;
+              padding-top: 0%;
+              height:100vh;
+              padding-right:5%;
+            }
+          }
+
+          @media (max-width: 768px) {
+            .embed-responsive-item{
+              padding-left: 5%;
+              padding-top: 0%;
+              height:100vh;
+              padding-right:1%;
+
+            }
+          }
+
+          @media (max-width: 992px) {
+            .embed-responsive-item {
+              padding-left: 5%;
+              padding-top: 0%;
+              height:100vh;
+              padding-right:1%;
+
+            }
+          }
+
+          @media (max-width: 1200px) {
+            .embed-responsive-item{
+              padding-left: 5%;
+              padding-top: 0%;
+              height:100vh;
+              padding-right:5%;
+
+            }
+          }
+
+          </style>
+          <iframe  class="embed-responsive-item"  src="https://xd.adobe.com/embed/e8b973f4-7ce6-440d-6170-c137a894a223-9e88/" ></iframe>
 
         </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-4">
-
-          <i class="fas fa-book fa-3x cyan-text"></i>
-          <h5 class="font-weight-bold my-4">Tutorials</h5>
-          <p class="grey-text mb-md-0 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-            maiores aperiam minima assumenda deleniti hic.
-          </p>
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-4">
-
-          <i class="far fa-comments fa-3x orange-text"></i>
-          <h5 class="font-weight-bold my-4">Support</h5>
-          <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores
-            aperiam minima assumenda deleniti hic.
-          </p>
-
-        </div>
-        <!-- Grid column -->
 
       </div>
-      <!-- Grid row -->
-      </div>
-      </div>
-    </section>
-    <!-- Section: Features v.1 -->
+      <p class="lead grey-text w-responsive mx-auto mb-5" >Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+      </section>
+      <!-- Section: Features v.1 -->
 
 
-
-        <!--<
-
-
-
-
-
-
-        <a class="navbar-brand" href="#">
-          <img src="img/brainMain.svg" width="50"><font color="#4A2366"> lumenary.</font>
-        </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-
-        h1>lumenary.</h1>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class ="navbar-brand" href="#">
-        <img src="brainMain.svg" width="50">
-      </a>
-      <div class="">
-
-    </div>-->
-    <!-- Navbar content -->
-
-  </body>
-  </html>
+    </body>
+    </html>
